@@ -1,0 +1,73 @@
+  .navbar-fixed-top {
+  position: absolute;
+    min-height: 90px;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 150px;
+}
+
+.navbar-brand img {
+  max-height: 90px;
+}
+
+.jumbotron {
+  background-image: url('../img/jumbotron.png');
+  background-size: cover;
+  height: 700px;
+  min-height: 100%;
+}
+
+.jumbotron .container {
+  padding-top: 400px;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  color: white;
+}
+
+.logotipo {
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(255,255,255,1));
+}
+
+.container-donate {
+  background-image: url("../img/donate.jpg");
+
+  height: 350px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-donate {
+  margin-top: 280px;
+}
+
+@media (max-width: 768px) {
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100px;
+    }
+
+    .jumbotron {
+      background-image: url('../img/jumbotron.png');
+      background-size: cover;
+      height: 400px;
+      min-height: 100%;
+    }
+
+    .jumbotron .container {
+      padding-top: 150px;
+    }
+
+    .navbar-brand img {
+      max-height: 80px;
+    }
+
+    .navbar-right a {
+      float: right;
+    }
+}
