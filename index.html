@@ -13,6 +13,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -51,16 +52,16 @@
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Conheça a Acorde</h1>
-        <p>In efficitur, purus id efficitur viverra, odio nunc aliquam arcu, eu malesuada felis metus quis nibh.</p>
-        <p><a class="btn btn-primary btn-lg" href="#conheca" role="button">Conheça! &raquo;</a></p>
-      </div>
+    <div class="header-container">
+        <div class="video-container">
+            <video autoplay loop muted poster="screenshot.jpg" id="video-background">
+                <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+            </video>
+        </div>
+        <h3> OLA </h3>
     </div>
 
-    <a name="conheca" ></a>
+    <!-- <a name="conheca" ></a>
     <div class="container">
       <div class="row">
         <div class="col-md-2"></div>
@@ -73,7 +74,7 @@
       </div>
     </div>
 
-    <br/>
+    <br/> -->
 
     <div class="container container-effect">
       <!-- Example row of columns -->
@@ -176,7 +177,7 @@
             <div class="form-group">
               <label for="Email" class="col-sm-2 control-label">Email</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" name="Email">
+                <input type="email" class="form-control" name="_replyto">
               </div>
             </div>
             <div class="form-group">
@@ -190,6 +191,8 @@
                 <button type="submit" class="btn btn-default">Enviar</button>
               </div>
             </div>
+            <!-- TODO: Redirecionar pra pagina de obrigado ou fim da pagina com mensagem -->
+            <!-- <input type="hidden" name="_next" value="//site.io/thanks.html" /> -->
           </form>
         <div class="col-md-2"></div>
         </div>
