@@ -32,7 +32,7 @@
 }
 
 .container-donate {
-  background-image: url("../img/donate.png");
+  background-image: url("../img/S-donate.png");
 
   height: 350px;
 
@@ -44,7 +44,8 @@
 }
 
 .col-donate {
-  margin-top: 280px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -140,4 +141,22 @@ video {
     padding: 50px;
     font-size: 16px;
     text-align: justify;
+    color: #ffffff
+}
+
+.section-title {
+    text-align: center;
+    padding: 15px;
+}
+
+.modal-dialog {
+  width: 690px;
+  height: 415px;
+}
+
+.quote {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
 }
