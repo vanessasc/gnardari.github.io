@@ -236,7 +236,7 @@
                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
               </div>
               <div class="modal-body">
-                  <iframe width="660" height="415" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="660" height="360" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
               </div>
           </div>
       </div>
@@ -251,7 +251,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
         $('#video-institucional').click(function () {
-            src = 'https://www.youtube.com/embed/MT5gXzTaJ4Y?autoplay=1';
+            src = 'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FAcordeONG1%2Fvideos%2F864832380327493%2F&show_text=0&width=660'
+            // src = 'https://www.youtube.com/embed/MT5gXzTaJ4Y?autoplay=1';
             $('#myModal').modal('show');
             $('#myModal iframe').attr('src', src);
         });
