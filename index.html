@@ -13,44 +13,43 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
+	
+	<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+	
+	<script>
+            jQuery("document").ready(function ($) {
+                var nav = $('.header');
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 150) {
+                        nav.addClass("scrolled-header scrolled-header-img");
+                    } else {
+                        nav.removeClass("scrolled-header scrolled-header-img");
+                    }
+                });
+
+            });
+        </script>
 
   </head>
 
   <body>
-
-    <nav class="nav navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>-->
-        </div>
-        <!-- <div class="nav  navbar-right">
-          <a class="navbar-brand logotipo" rel="home" href="#" title="Buy Sell Rent Everyting"><img class="img-responsive" src="img/acorde.png"></a>
-        <div> -->
-        <!--<div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-          </ul>-->
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
+  
+	<nav class="header navbar navbar-default">
+           <img class="img-nav" src="img/acorde.png" alt="Acorde">
+            <ul class="header-nav nav navbar-nav">                
+                <li><a href="#">link 1</a></li>
+                <li><a href="#">link 2</a></li>                
+                <li><a href="#">link 3</a></li>
+				<li><a href="#">link 4</a></li>
+				<li><a href="#">link 5</a></li>
+                <!--<li><button type="button" class="btn btn-default btn-lg">-->                
+            </ul>
+        </nav>  
+    
 
     <div class="header-container">
         <div class="video-container">
