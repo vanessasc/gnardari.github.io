@@ -202,3 +202,7 @@ video {
 .event-title {
     text-align: center;
 }
+
+.no-padding {
+    padding: 0px !important;
+}
