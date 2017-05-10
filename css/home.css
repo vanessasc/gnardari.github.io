@@ -78,7 +78,7 @@ body {
 }
 
 .container-donate {
-  background-image: url("../img/doe.png");
+    background-image: url("../img/doe.png");
   height: 350px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -178,7 +178,9 @@ video {
 .row.row-background {
     background-color: #369ff4;
 }
-
+.row.row-intro {
+    background-color: white;
+}
 .row-text {
     padding: 50px;
     font-size: 16px;
@@ -196,19 +198,27 @@ video {
 }
 
 .quote-hello {
-    color: #ffffff;
+    color: black;
     text-align: center;
-    font-size: 32px;
-    padding-top: 20px;
+    font-size: 30px;
+    padding-top: 15px;
     font-weight: 550;
-    text-shadow: 2px 2px 5px rgba(20, 20, 20, 1);
+    /*text-shadow: 2px 2px 5px rgba(20, 20, 20, 1);*/
 }
 
 .quote {
+    color: black;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 15px;
+    font-weight: 550;
+    /*text-shadow: 2px 2px 5px rgba(20, 20, 20, 1);*/
+}
+.quote_foto {
     color: #ffffff;
     text-align: center;
-    font-size: 30px;
-    padding-top: 50px;
+    font-size: 28px;
+    padding-top: 100px;
     font-weight: 550;
     text-shadow: 2px 2px 5px rgba(20, 20, 20, 1);
 }
@@ -224,4 +234,9 @@ video {
 
 .no-padding {
     padding: 0px !important;
+}
+.logo_parceiro {
+  width: 20%;
+  text-align: left;
+  padding-bottom: 30px;
 }
