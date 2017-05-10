@@ -79,9 +79,17 @@ body {
 
 .container-donate {
   background-image: url("../img/doe.png");
-
   height: 350px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.container-about {
+  background-image: url("../img/somos.png");
+  height: 350px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -187,11 +195,22 @@ video {
   width: 690px;
 }
 
+.quote-hello {
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+    font-weight: 550;
+    text-shadow: 2px 2px 5px rgba(20, 20, 20, 1);
+}
+
 .quote {
     color: #ffffff;
     text-align: center;
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 50px;
+    font-weight: 550;
+    text-shadow: 2px 2px 5px rgba(20, 20, 20, 1);
 }
 
 .circle {
