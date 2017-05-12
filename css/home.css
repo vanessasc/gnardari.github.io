@@ -86,6 +86,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.container-donateI {
+    background-image: url("../img/inst.jpg");
+  height: 550px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .container-about {
   background-image: url("../img/somos.png");
@@ -214,11 +223,26 @@ video {
     font-weight: 550;
     /*text-shadow: 2px 2px 5px rgba(20, 20, 20, 1);*/
 }
+.quote_I {
+    color: #202020;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 550;
+    /*text-shadow: 2px 2px 5px rgba(20, 20, 20, 1);*/
+}
 .quote_foto {
     color: #ffffff;
     text-align: center;
     font-size: 28px;
     padding-top: 100px;
+    font-weight: 550;
+    text-shadow: 2px 2px 5px rgba(20, 20, 20, 1);
+}
+.quote_fotoI {
+    color: #ffffff;
+    text-align: left;
+    font-size: 28px;
+    padding-top: 350px;
     font-weight: 550;
     text-shadow: 2px 2px 5px rgba(20, 20, 20, 1);
 }
